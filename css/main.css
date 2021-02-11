@@ -172,7 +172,7 @@ body{
 }
 #monka_box{
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     display: flex;
     
 }
@@ -221,15 +221,8 @@ body{
 }
 #ki{
     border-radius: 10rem;
+}
 
-}
-#link-ed{
-    color:aqua;
-    padding-top: 80px;
-}
-#homeback{
-    color:yellowgreen;
-}
 
 #main_photo{
     animation-delay: 50ms;
@@ -248,4 +241,7 @@ body{
 }
 #boos{
     animation-delay:300ms;
+}
+.link{
+    color:teal;
 }
