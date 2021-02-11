@@ -222,3 +222,22 @@ body{
 #homeback{
     color:yellowgreen;
 }
+
+#main_photo{
+    animation-delay: 50ms;
+}
+#name{
+    animation-delay: 100ms;
+}
+#summary{
+    animation-delay:150ms;
+}
+#pp{
+    animation-delay:200ms;
+}
+#amores{
+    animation-delay:250ms;
+}
+#boos{
+    animation-delay:300ms;
+}
