@@ -44,8 +44,9 @@ body{
 }
 #list-summary{
     font-family: 'Big Shoulders Display', cursive;
-    color:white;
-    font-size: 18px;
+    font-size: 26px;
+    font-style: oblique;
+    color: teal;
 }
 #perfil{
     font-family: 'Roboto', sans-serif;
@@ -218,6 +219,6 @@ body{
     color:aqua;
     padding-top: 80px;
 }
-#end1{
-    height: 80px;
+#homeback{
+    color:yellowgreen;
 }
