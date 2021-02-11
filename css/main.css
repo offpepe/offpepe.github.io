@@ -133,6 +133,13 @@ body{
     justify-content: center;
     display:flex;
 }
+#inspiração{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size:36px;
+    padding-top:50px;
+    padding-bottom: 20px;
+}
 #title_game{
     font-family: 'Orbitron', sans-serif;
     text-align: center;
@@ -169,4 +176,48 @@ body{
     justify-content: center;
     display: flex;
     
+}
+#insp{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+#bruno{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+#Toby{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ 
+}
+#Kojima{
+    text-align: center;
+
+
+}
+
+#bi{
+    border-radius: 10rem;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#ti{
+    border-radius: 10rem;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#ki{
+    border-radius: 10rem;
+
+}
+#link-ed{
+    color:aqua;
+    padding-top: 80px;
+}
+#end1{
+    height: 80px;
 }
