@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-size:15px;
+}
+
+body{
+    color:white
+}
+#name{
+    font-family: 'Roboto', sans-serif;
+    text-align:right;
+    padding-right:10%;
+}
+#container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9bc27292880429.5e569ff84e4d0.gif");
+   /* código, costumizado, pego em https://stackoverflow.com/questions/40081586/how-to-add-background-image-behind-container/40081668 */
+}
+#main_photo{
+    border-radius: 10rem;    
+}
+#page-landing{
+    color:#fffff;
+    background:linear-gradient(329.54deg,#8d7a7a 0%,#000000 100%) no-repeat;
+    min-height: 100vh;
+    
+}
+#summary{
+    text-align: center;
+}
+#sumario{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 28px;
+}
+#list-summary{
+    font-family: 'Big Shoulders Display', cursive;
+    color:white;
+    font-size: 18px;
+}
+
