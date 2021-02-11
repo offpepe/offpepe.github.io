@@ -5,26 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu portfólio</title>
     <link rel="shortcut icon"href="https://avatars.githubusercontent.com/u/62621800?s=460&u=e91c4d8f6b8315a3468c043846b0ee08c3be39ef&v=4">
-  </head>
+    <link rel="stylesheet" href="main.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,300&display=swap"
+    rel="stylesheet"
+  />
+  
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;600&family=Roboto:ital,wght@0,100;0,700;1,300&display=swap" rel="stylesheet">
+  <!-- Fontes de Google Fonts -->
+    </head>
   <body>
-    
+      <div id="container">
     <img
       src="https://scontent.fcgr2-1.fna.fbcdn.net/v/t1.0-9/90233504_3156499981049575_4359635012258103296_n.jpg?_nc_cat=109&ccb=3&_nc_sid=09cbfe&_nc_eui2=AeFiTlgk30O5ZlfCKPsg_gUqwloLkp5ZZmvCWguSnllma9Id--NvNY4etp0HYs9rn2utSdZdWoqpkNzvdoBlXz3A&_nc_ohc=XlckJnQno2kAX9NmscI&_nc_ht=scontent.fcgr2-1.fna&oh=4a3fd82de3fd4108b935e5a56624aaf9&oe=604ABAD0"
       alt="Alan Albuquerque"
-      title="este sou eu"
+      title="eu e meu bebê"
       width="20%"
       id="main_photo"
-    /><br><i>eu e meu bebê</i>
-    <h1>Alan Albuquerque F. Lopes</h1>
+    />
+    <h1 id="name">Alan Albuquerque F. Lopes</h1>
+    </div>
+  <div id="page-landing">
+    <div id="summary">
     <h3 id="sumario">Sumário</h3>
-    <ol>
-      <a href="#perfil"><li>Perfil</li></a>
-      <a href="#amores"><li>Meus Amores</li></a>
-      <a href="#gostos"><li>Gostos Pessoais</li></a>
-    <a href="#projetos"><li>Projetos</li></a>
-    <a href="#curiosidade"><li>Curiosidade</li></a>
-    <a href="#inspiração"><li>Inspiração</li></a>
-    </ol>
+    <ol id="list-summary">
+      <div id="list">
+      <a href="#perfil" style="color:aqua"><li>Perfil</li></a>
+      <a href="#amores" style="color:aqua"><li>Meus Amores</li></a>
+      <a href="#gostos" style="color:aqua"><li>Gostos Pessoais</li></a>
+    <a href="#projetos" style="color:aqua"><li>Projetos</li></a>
+    <a href="#curiosidade" style="color:aqua"><li>Curiosidade</li></a>
+    <a href="#inspiração" style="color:aqua"><li>Inspiração</li></a>
+  </div>
+  </ol>
+  </div>
     <h3 id="perfil">Perfil <a href="#main photo">↑</a></h3>
     <p>
       <i>Meu nome é <b>Alan</b>, sou nativo de Corumbá-MS e atualmente moro em Campo
@@ -49,10 +63,10 @@
         <li>Planejo muito.</li>
     </ul>
     <h3 id="amores">Meus amores<a href="#sumario" title="voltar ao inicio">↑</a></h3>
-    <img src="/imgs/chiriro.jpg" alt="chiriro" title="Chiriro" width="300px" height="400px">
-    <img src="/imgs/marnie.jpeg" alt="marnie" title="Marnie" width="300px" height="400px">
-    <br><img src="/imgs/shiroi.jpeg" alt="shiroi" title="Shiroi" width="400px" height="400px">
-    <img src="/imgs/satoshi.jpeg" alt="satoshi" title="Satoshi" width="300px" height="400px">
+    <img src="imgs/chiriro.jpg" alt="chiriro" title="Chiriro" width="300px" height="400px">
+    <img src="imgs/marnie.jpeg" alt="marnie" title="Marnie" width="300px" height="400px">
+    <br><img src="imgs/shiroi.jpeg" alt="shiroi" title="Shiroi" width="400px" height="400px">
+    <img src="imgs/satoshi.jpeg" alt="satoshi" title="Satoshi" width="300px" height="400px">
     <!-- <br><img src="imgs/WhatsApp Image 2021-02-05 at 11.52.54.jpeg" alt="eu e minha namorada" title="Eu e minha namorada, Jaqueline" width=300px> -->
     
     <h3 id="gostos">Gostos pessoais<a href="#sumario" title="voltar ao inicio">↑</a></h3>
@@ -60,7 +74,7 @@
       <li>Amo Lo-fi, meu gênero favorito seguido por post-punk</li>
       <!-- Código pego pela opção <embed> no gift, direitos reservados para @SeekingBlueRecords -->
         <a href="https://giphy.com/gifs/SeekingBlueRecords-lofi-hiyo-seekingblue-RMwgs5kZqkRyhF24KK""><img src="https://media2.giphy.com/media/RMwgs5kZqkRyhF24KK/giphy.gif" alt="imagem animada referenciando calma" title="gif por @SeekingBlueRecords"width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></a>
-      <li>Sou um entusiasta da cultura oriental</li>
+      <li title="ou seja, otaku gourmet">Sou um entusiasta da cultura oriental</li>
       <a href="https://giphy.com/gifs/funimation-excited-xDbS5VgmigHgk"><img src="https://media0.giphy.com/media/xDbS5VgmigHgk/giphy.gif" title="gif por @funimation
 "width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen alt="imagem animada do anime miss kobayashi's maid dragon"></a>
       <li>Tenho um carinho enorme por jogos digitais e futuramente planejo entrar na área do desenvolvimento de jogos</li>
@@ -83,7 +97,7 @@
     <img src="https://cdn.betterttv.net/emote/5d922afbc0652668c9e52ead/3x" alt="peepoarrive" title="peepoarrive" width="300px" >
     <p>todos emotes tirados de <a href="https://betterttv.com/emotes/top">BetterTTV</a></p>
     <p><b>Sou Daltônico, possuo deuteranopia</b></p>
-    <img src="/imgs/mapa-hipsométrico.jpg" alt="mapa-hipsométrico, deuteranopia" title="mapa-hipsométrico, deuteranopia"=>
+    <img src="imgs/mapa-hipsométrico.jpg" alt="mapa-hipsométrico, deuteranopia" title="mapa-hipsométrico, deuteranopia"=>
     <!-- imagem retirada de https://comunidadedoestagio.com/blog/os-mapas-hipsometricos-e-os-daltonicos -->
     <h3 id="inspiração">Inspiração<a href="#sumario" title="voltar ao inicio">↑</a></h3>
     <h4><i>Bruno Simon</i></h4>
@@ -119,7 +133,7 @@
     <br>
     <br>
     <a href="https://scontent.fcgr2-1.fna.fbcdn.net/v/t1.0-9/147178325_1675629299288324_345485981729673956_n.jpg?_nc_cat=100&ccb=3&_nc_sid=825194&_nc_eui2=AeHn8FoLhujplB-3V-BiEaksnO8nX7xmH9qc7ydfvGYf2vNUfN4h2i_h_D6KQ7KDmTKSRM9STbHlV8ngNcukBYPZ&_nc_ohc=8rgyGoZ7Qk8AX8_Cin1&_nc_ht=scontent.fcgr2-1.fna&oh=36fa4cc4952d49062a0b01add13e04ee&oe=60485DDE" title="me add!" target="_blank">.</a>
-
+  </div>
     
 </html>
 
