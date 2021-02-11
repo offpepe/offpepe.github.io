@@ -29,7 +29,7 @@ body{
 }
 #page-landing{
     color:#fffff;
-    background:linear-gradient(329.54deg,#8d7a7a 0%,#000000 100%) no-repeat;
+    background:linear-gradient(321deg,#993399 0%,#000000 100%) no-repeat;
     min-height: 100vh;
     
 }
@@ -142,4 +142,31 @@ body{
 #proj_txt{
     padding-bottom: 50px;
     text-align: center;
+}
+#curiosidade{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size:36px;
+    padding-top:50px;
+    padding-bottom: 20px;
+}
+#monka{
+    text-align: center;
+    font-size: larger;
+}
+#monka_box{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    
+}
+#daltonic{
+    text-align: center;
+    font-size: larger;
+}
+#mapa{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
 }
