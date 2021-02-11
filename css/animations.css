@@ -14,6 +14,7 @@
         animation-duration: 600ms;
         animation-fill-mode: backwards;
     }
-.link a:hover{
-    background:yellow;
+
+.link:hover{
+    color:red;
 }
