@@ -3,7 +3,7 @@
     color:white;
     background-color: black;
 }
-#profile_box:hover{
+#page:hover{
     animation-play-state: running;
     position:relative;
 }
