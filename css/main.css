@@ -33,7 +33,7 @@ header{
 
 
 #alan_photo{
-    border-radius: 100%;
+    border-radius: 50%;
     width:20%;
 }
 
@@ -106,9 +106,10 @@ header{
     display:flex;
     justify-content: center;
     margin: 35px 35px 0px 0px;
+    overflow: hidden;
 }
 #profile-photo img{
-    border-radius:100%;
+    border-radius:50%;
     width:250px;
 }
 #end-profile{
