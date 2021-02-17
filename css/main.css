@@ -369,7 +369,7 @@ header{
     border-radius: 0%;
 }
 #git,#website{
-    -webkit-filter:invert(100%);
+   filter:invert(100%);
 }
 
 #info_txt{
@@ -396,10 +396,7 @@ header{
 footer{
     background: white;
 }
-.main_social{
-    
-    /* margin-left: 1340px; */
-}
+
 #img_social{
     display: grid;
 }
