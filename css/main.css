@@ -2,251 +2,428 @@
     margin: 0;
     padding: 0;
 }
-li,p{
-    font-family: 'Source Sans Pro', sans-serif;
-
-}
-:root{
-    font-size:15px;
-}
-
 body{
-    color:white
+    background-color:black ;
 }
 
-#name{
-    text-shadow: 3px 3px blueviolet
+#id p{
+    font-family: 'Source Sans Pro', sans-serif;
 }
-#name{
-    color:aqua;
-    font-family: 'Russo One', sans-serif;
-    text-align:right;
-    padding-right: 1.3%;
-    text-shadow: 2px 2px blueviolet;    
+.bg{
+    background-image:url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9bc27292880429.5e569ff84e4d0.gif");
+    background-repeat:repeat-x,no-repeat;
+    position:absolute;
+    overflow:hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
 }
-#container{
+html {
+    scroll-behavior:smooth;
+ 
+}
+
+header{
     display:flex;
-    align-items: center;
-    justify-content: space-between;
-    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9bc27292880429.5e569ff84e4d0.gif");
-   /* código, costumizado, pego em https://stackoverflow.com/questions/40081586/how-to-add-background-image-behind-container/40081668 */
-    width:100%;
-   z-index: 2;
+    justify-content:space-between;
     
 }
 
 
-#main_photo{
-    border-radius: 10rem;    
+#alan_photo{
+    border-radius: 50%;
+    width:20%;
 }
-#page-landing{
-    color:#ffffff;
-    background:linear-gradient(321.5deg,#993399 -35%,#000000  100%) no-repeat;
-    min-height: 100vh;
+
+#name-conteiner{
+    font-family: 'Russo One', sans-serif;
+    text-align: right;
+    margin: 125px 50px 0px 0px;
+    color: teal;
+    text-shadow: 1px 1px blueviolet;
+}
+#name{
+    font-size: 35px;
+}
+#undername{
+    text-align: left;
+    font-size: 25px;
+}
+.sumlis{
+    
+    margin: 0px 30px 0px 0px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 35px;
+    font-weight: 600;
+    text-shadow: 2px 2px red;
+    display:flex;
+    justify-content: center;
+    
+}
+.sumlis a{
+        color:rgb(68, 0, 156);
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 3rem;
 }
 #summary{
     text-align: center;
-    padding-left: 100px;
+    margin-top: 100px;
 }
-#sumario{
-    font-family: 'Big Shoulders Display', cursive;
-    font-size: 28px;
-    color:rosybrown
+#sumtit{
+    font-family: 'Russo One', sans-serif;
+    color:rgb(248, 47, 47);
+    font-size: 40px;
+    text-shadow: 2px 2px royalblue;
 }
-#list li{
-    font-family: 'Big Shoulders Display', cursive;
-    font-size: 26px;   
-    font-weight: 600;
-    text-shadow: 1px 1px #ff0000;
- 
-    }
+#page{
+    
+    min-height: 100vh ;
+    background:linear-gradient(-185.2deg,rgb(68, 0, 156) 0%, #000000 100%) no-repeat;
+    z-index: 0;
+}
 
-#perfil{
+#profile-conteiner{
+    margin: 200px 250px 0px 250px;
+    overflow:visible;
+}
+#profile-conteiner h1{
+    color: whitesmoke;
+    padding-top:20px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size:36px;
 }
-#txt_box{
-    padding-left:30px ;
-    padding-top:10px;
-    padding-bottom:10px ;
+#profile-conteiner p{
+    margin-top: 45px;
+    color: whitesmoke;
+    line-height: 25px;
 }
-#lists-profile{
-    padding-left:30px ;
 
-}
-#languages{
-    padding-bottom: 10px;
-    padding-top: 5px;
-}
-#skills{
-    padding-bottom: 10px;
-    padding-top: 5px;
-}
-#amores{
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    font-size:36px;
-}
-#boos{
-   display:flex;
-   justify-content:space-around;
-
-}
-#chiriro{
-    border-radius: 25rem;    
-}
-#marnie{
-    border-radius: 25rem;   
-}
-#satoshi{
-    border-radius: 25rem;   
-}   
-#shiroi{
-    border-radius: 25rem;   
-}
-#gostos{
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    font-size:36px;
-    padding-top:50px;
-    padding-bottom: 20px;
-}
-#img-gp-box{
-    align-items: center;
-    justify-content: center;
+#profile-photo{
     display:flex;
+    justify-content: center;
+    margin: 35px 35px 0px 0px;
+    overflow: hidden;
 }
-#lofi{
-    border-radius: 20rem;
+#profile-photo img{
+    border-radius:50%;
+    width:250px;
 }
-#maid_dragon{
-    border-radius: 20rem;
+#end-profile{
+    display:block;
+    justify-content: center;
+    align-items: center;
 }
-#gameboy{
-    border-radius: 20rem;
+
+#arrow-profile a{
+    margin-left: 10px;
+    text-decoration: none;
+    font-size:40px;
+}
+#language_skills_box{
+    display:flex;
+    justify-content: space-between;
+    color:whitesmoke;
+    margin: 130px 110px 130px 40px;
+}
+#languages_skills{
+    opacity:0;
+    padding: 200px 0px 200px 0px;
+    
+}
+#languages_skills img{
+    float:right;
+    border-radius:10rem;
+}
+
+#arrow-lk a{
+    margin-left: 10px;
+    text-decoration: none;
+    font-size:40px;
+}
+#arrow-lk{
+    margin-left:220px;
+}
+.baixo{
+    color:red;
+    text-shadow: 2px 2px rgb(68, 0, 156);
+}
+.cima{
+    color:darkorchid;
+    text-shadow: 2px 2px red;
+}
+.tothetop{
+    color:yellow;
+    text-shadow: 2px 2px #7DAFDE;
+}
+
+#pets{
+    margin-top:135x;
+    padding-bottom:200px;
+}
+#pets h1{
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0px 0px 80px 0px;
+}
+#petsbox{
+    display: flex;
+    justify-content: space-around;
+        
+}
+#Marnie{
+    border-radius: 100%;
+    width:300px;
+    height:400px;
+}
+#Chiriro{
+    border-radius:100%;
+    width:300px;
+    height:400px;
+}
+#Shiroi{
+    
+    border-radius: 100%;
+    width:300px;
+    height:400px;
+}
+#Satoshi{
+    border-radius: 100%;
+    width:300px;
+    height:400px;
+}
+
+#arrow-pets{
+  
+    font-size:40px;
+    margin-left: 220px;
+}
+#arrow-pets a{
+    margin-left: 10px;
+    text-decoration: none;
+}
+#lofi img{
+    width: 300px;
+    border-radius: 100%;
+}
+#anime img{
+    width: 300px;
+    height:300px;
+    border-radius: 100%;
+ 
+}
+#jogos img{
+    width:300px;
+    height: 300px;
+    border-radius: 100%;
 }
 #gostos_box{
-   align-items: center;
-   justify-content: center;
-    display: flex;
-    padding-bottom: 9px;
-    font-size:18px;
-    
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-bottom: 100px;
+}
+#gostos_box p{
+    color:whitesmoke;
+    text-align: center;
+    margin-bottom:10px;
 
 }
-#projetos{
+#gostos h1{
+    color: whitesmoke;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size:36px;
-    padding-top:50px;
-    padding-bottom: 20px;
+    margin: 20px 0px 120px 0px;
 }
-#rickyspaceship{
-    align-items: center;
+#arrow-gostos{
+  
+    font-size:40px;
+    margin-left: 220px;
+    padding-bottom: 200px;
+}
+#arrow-gostos a{
+    margin-left: 10px;
+    text-decoration: none;
+}
+#image{
+    display: flex;
     justify-content: center;
-    display:flex;
+    margin: 40px 0px 40px 0px
 }
-#inspiração{
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    font-size:36px;
-    padding-top:50px;
-    padding-bottom: 20px;
+#image img{
+    width:400px;
 }
-#title_game{
-    font-family: 'Orbitron', sans-serif;
-    text-align: center;
-    font-size: large;
-    padding-bottom: 10px;
+#projeto a{
+    text-decoration: none;
+    color: rgb(68, 0, 156);
+    font-size:30px;
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 45px;
+    text-shadow: 2px 2px red;
+
 }
-#proj_txt{
-    padding-bottom: 50px;
+#projeto{
     text-align: center;
+}
+#projeto p{
+    padding:10px 0px 100px 0px;
+    color:white;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+}
+#proj h1{
+    text-align: center;
+    margin: 0px 0px 100px 0px;
+    color:whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+}
+#arrow-proj{
+    font-size:40px;
+    margin-left: 220px;
+    
+}
+#arrow-proj a{
+    margin-left: 10px;
+    text-decoration: none;
+    margin-bottom: 500px;
+}
+#curiosidade h1{
+    text-align: center;
+    color:whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
 }
 #curiosidade{
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    font-size:36px;
-    padding-top:50px;
-    padding-bottom: 20px;
+    margin-top:200px;
 }
-#monka{
-    text-align: center;
-    font-size: larger;
-}
-#monka_box{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    
-}
-#daltonic{
-    text-align: center;
-    font-size: larger;
-}
-#mapa{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    
-}
-#insp{
-    align-items: center;
+#cur_box{
+    margin: 100px 0px 100px 0px;
+    display: flex ;
     justify-content: space-around;
-    display: flex;
 }
-#bruno{
+#cur_box p{
+    color:white;
+
+}
+#monka,#daltonism{
+    align-items: center;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+}
+#monka img,#daltonism img{
+    width:300px;
+    border-radius: 100%;
+}
+#daltonism img{
+    margin-top: 40px;
+}
+#arrow-cur{
+    font-size:40px;
+    margin-left: 220px;
+    padding-bottom: 650px;
+}
+#arrow-cur a{
+    margin-left: 10px;
+    text-decoration: none;
     
 }
-#Toby{
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
- 
+#inspbox  img{
+    border-radius:100%;
+    margin-right: 150px;
+    width:300px;
 }
-#Kojima{
-    text-align: center;
-
-
-}
-
-#bi{
-    border-radius: 10rem;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-#ti{
-    border-radius: 10rem;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-#ki{
-    border-radius: 10rem;
+#inspbox{
+    display: flex;
+    justify-content: space-between ;
+    margin-bottom: 150px
 }
 
+.circle{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: lightblue;     
+    }
+#index_circles{
+    display:grid;
+    justify-items:baseline;
+    margin:120px 0px 0px 60px;
+}
 
-#main_photo{
-    animation-delay: 50ms;
+#index_info{
+    display: grid;
 }
-#name{
-    animation-delay: 100ms;
+#connections{
+    display: inline;
+    justify-content:space-around ;
 }
-#summary{
-    animation-delay:150ms;
+#connections img{
+    border-radius: 50%;
+    width:50px;
 }
-#pp{
-    animation-delay:200ms;
+#website{
+    border-radius: 0%;
 }
-#amores{
-    animation-delay:250ms;
+#git,#website{
+    -webkit-filter:invert(100%);
 }
-#boos{
-    animation-delay:300ms;
+
+#info_txt{
+    color:whitesmoke;
+    margin: 118px 0px 0px 25px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 800;
+    word-spacing: 5px ;
+    
 }
-.link{
-    color:teal;
+
+.simon_img{
+    content:url("https://media-exp1.licdn.com/dms/image/C4D03AQHB9N54xRi94A/profile-displayphoto-shrink_800_800/0/1516842441449?e=1618444800&v=beta&t=OMlMup88H8RBwIbM4jiP31oqWBCd4WFMJgbaw56wgaU");
+    animation-play-state: running;
+}
+.kojima_img{
+    content:url("https://pbs.twimg.com/profile_images/914211724412166144/Bf2Yij9b.jpg");
+    animation-play-state: running;
+}
+
+.connect{
+    margin-left: 80px;
+}
+footer{
+    background: white;
+}
+.main_social{
+    
+    /* margin-left: 1340px; */
+}
+#img_social{
+    display: grid;
+}
+#img_social img{
+    width: 50px;
+}
+#footerbox{
+    display:flex;
+    justify-content: space-between;
+}
+#txt_social{
+  margin: 70px 0px 0px 30px;
+}
+#txt_social p{
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 500;
+}
+#arrow-insp{
+    font-size:80px;
+    margin-top:50px;
+    margin-right:120px
+}
+#arrow-insp a{
+    margin-left: -25px;
+    text-decoration: none;
+    
 }
