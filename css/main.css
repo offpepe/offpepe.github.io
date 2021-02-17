@@ -30,7 +30,10 @@ header{
     justify-content:space-between;
     
 }
-
+header img{
+    margin-top:50px;
+    margin-left: 100px;
+}
 
 #alan_photo{
     border-radius: 50%;
@@ -41,7 +44,7 @@ header{
     font-family: 'Russo One', sans-serif;
     text-align: right;
     margin: 125px 50px 0px 0px;
-    color: teal;
+    color: aqua;
     text-shadow: 1px 1px blueviolet;
 }
 #name{
@@ -63,13 +66,14 @@ header{
     
 }
 .sumlis a{
-        color:rgb(68, 0, 156);
+    color:rgb(68, 0, 156);
     text-decoration: none;
     padding: 10px 20px;
     text-transform: uppercase;
     border-radius: 3rem;
 }
 #summary{
+    display:grid;
     text-align: center;
     margin-top: 100px;
 }
@@ -80,9 +84,9 @@ header{
     text-shadow: 2px 2px royalblue;
 }
 #page{
-    
+    opacity: 0;
     min-height: 100vh ;
-    background:linear-gradient(-185.2deg,rgb(68, 0, 156) 0%, #000000 100%) no-repeat;
+    background:linear-gradient(-185.2deg,rgb(68, 0, 156) 0%, #000000 50%) no-repeat;
     z-index: 0;
 }
 
@@ -161,14 +165,14 @@ header{
 }
 
 #pets{
-    margin-top:135x;
-    padding-bottom:200px;
+    margin-top:135px;
+    margin-bottom:200px;
 }
 #pets h1{
     color: whitesmoke;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin: 0px 0px 80px 0px;
+    margin: 80px 0px 0px 0px;
 }
 #petsbox{
     display: flex;
@@ -176,23 +180,23 @@ header{
         
 }
 #Marnie{
-    border-radius: 100%;
+    border-radius: 50%;
     width:300px;
     height:400px;
 }
 #Chiriro{
-    border-radius:100%;
+    border-radius:50%;
     width:300px;
     height:400px;
 }
 #Shiroi{
     
-    border-radius: 100%;
+    border-radius: 50%;
     width:300px;
     height:400px;
 }
 #Satoshi{
-    border-radius: 100%;
+    border-radius: 50%;
     width:300px;
     height:400px;
 }
@@ -208,18 +212,18 @@ header{
 }
 #lofi img{
     width: 300px;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 #anime img{
     width: 300px;
     height:300px;
-    border-radius: 100%;
+    border-radius: 50%;
  
 }
 #jogos img{
     width:300px;
     height: 300px;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 #gostos_box{
     display:flex;
@@ -316,7 +320,7 @@ header{
 }
 #monka img,#daltonism img{
     width:300px;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 #daltonism img{
     margin-top: 40px;
@@ -332,7 +336,7 @@ header{
     
 }
 #inspbox  img{
-    border-radius:100%;
+    border-radius:50%;
     margin-right: 150px;
     width:300px;
 }
@@ -369,7 +373,7 @@ header{
     border-radius: 0%;
 }
 #git,#website{
-   filter:invert(100%);
+   filter:invert(50%);
 }
 
 #info_txt{

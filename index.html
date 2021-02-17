@@ -22,7 +22,6 @@
 <script src="js/engine.js"></script>
 </head>
 <body class=bg >
-
     <header id="cabeçalho">
        <img src="https://media-exp1.licdn.com/dms/image/C5635AQHjk_WaXuwFkg/profile-framedphoto-shrink_200_200/0/1613578651240?e=1613682000&v=beta&t=xKlJmVbDit2AbGUGoZFEFrD_YAROJvvC-WNOiHlmW_A" alt="Foto de Alan Albuquerque" id="alan_photo">
     <div id="name-conteiner">
@@ -33,7 +32,7 @@
 <div id="summary" >
     <h3 id="sumtit">Sumário</h3>
     <div id="list-summary" class="sumlis">
-        <a href="#profile" id="sumprof" >Perfil</a>
+        <a href="#page" id="sumprof" onclick="profile()">Perfil</a>
         <a href="#pets" class="">Pets</a>
         <a href="#gostos" class="">Meus gostos</a>
         <a href="#projeto" class="">Projetos</a>
@@ -43,9 +42,9 @@
     
 
 </div>
-<section id="page" class="animated-up-pr">
+<section id="page">
 <section id="profile_box">
-<nav id="profile-conteiner" >
+<nav id="profile-conteiner">
     <h1 id="profile">Sobre mim</h1>
 <p> <i>Meu nome é <b>Alan</b>, sou nativo de Corumbá-MS e atualmente moro em Campo
     Grande-MS(A capital do estado)</i>.<br />Gosto de programar desde os meus 16
@@ -58,11 +57,11 @@
 <img src="/offpepe.github.io/imgs/73420392_573852423441622_4859424782942208000_n.jpg" alt="Foto de Alan Albuquerque">
 </div>
 <div id="arrow-profile">
-    <a href="#languages_skills" class="baixo">▼</a><a href="#cabeçalho" class="tothetop" >▲</a> </div>
+    <a href="#languages_skills" class="baixo" onclick="lk()">▼</a><a href="#cabeçalho" class="tothetop" >▲</a> </div>
 </div>
 </nav>
 </section>
-<section id="languages_skills" class="animated-up-lk">
+<section id="languages_skills">
     <img src="https://giffiles.alphacoders.com/187/187960.gif" alt="Kobayashi trabalhando(programação)" id="kobayashi">
   <div id="language_skills_box">
     <div id="languages">
@@ -85,14 +84,11 @@
         </ul>    
     </div>
 </div>
-
 <div id="arrow-lk">
-    <a href="#pets" class="baixo">▼</a><a href="#profile" class="cima">▲</a><a href="#cabeçalho" class="tothetop">▲</a></div>
+    <a href="#pet" class="baixo">▼</a><a href="#profile" class="cima" onclick="rprofile()">▲</a><a href="#cabeçalho" class="tothetop">▲</a></div>
 </section>
-
-
 <section id="pets" class="animated-up-pets">
-    <h1>Meus Pets</h1>
+    <h1 id="pet">Meus Pets</h1>
     <div id="petsbox">
         <img src="/offpepe.github.io/imgs/marnie.jpeg" id="Marnie" alt="Gato: Marnie" title="Marnie">    
         <img src="/offpepe.github.io/imgs/chiriro.jpg" id="Chiriro" alt="Gato: Chiriro" title="Chihiro">

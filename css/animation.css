@@ -1,25 +1,33 @@
+#gostos:hover{
+    animation-play-state: running;
+}
+#proj:hover{
+    animation-play-state: running;
+}
+#page:hover{
+    animation-play-state: running;
+}
+#pets:hover{
+    animation-play-state: running;
+}
+#curiosidade:hover{
+    animation-play-state: running;
+}
+#inspiração:hover{
+    animation-play-state: running;
+}
 
 .sumlis a:hover{
     color:white;
     background-color: black;
 }
-#page:hover{
-    animation-play-state: running;
-    position:relative;
-}
-#profile-conteiner{
-    animation-play-state:running;
-}
+
 #arrow-profile a:hover{
     color:aqua;
     text-shadow: 2px 2px teal;
 }
-#pets:hover{
-    animation-play-state: running;
-}
-#languages_skills:hover{
-    animation-play-state: running;
-}
+
+
 #arrow-lk a:hover{
     color:aqua;
     text-shadow: 2px 2px teal;
@@ -32,29 +40,7 @@
     color:aqua;
     text-shadow: 2px 2px teal;
 }
-#gostos:hover{
-    animation-play-state: running;
-}
-#proj:hover{
-    animation-play-state: running;
-}
 
-#Marnie:hover{
-    width:400px;
-    height: 500px;
-}
-#Chiriro:hover{
-    width:400px;
-    height: 500px;
-}
-#Shiroi:hover{
-    width:400px;
-    height: 500px;
-}
-#Satoshi:hover{
-    width:400px;
-    height: 500px;
-}
 #projeto a:hover{
     color: aqua;
 }
@@ -69,12 +55,7 @@
 .circle:hover{
     background-color:#073B3A;
 }
-#curiosidade:hover{
-    animation-play-state: running;
-}
-#inspiração:hover{
-    animation-play-state: running;
-}
+
 
 @keyframes up{
     from {
@@ -87,18 +68,36 @@
         transform: translateY(0);
     }
 }
+.animated-up-pg{
+    animation-name: up;
+    animation-duration: 800ms;
+    animation-fill-mode:forwards;
+   
+}
+
 .animated-up-pr{
     animation-name: up;
-    animation-duration: 600ms;
+    animation-duration: 1000ms;
     animation-fill-mode:forwards;
-    animation-play-state: paused;
 }
+.animated-down-pr{
+    animation-name:down;
+    animation-duration:800ms;
+    animation-fill-mode: forwards;
+}
+
 .animated-up-lk{
     animation-name: up;
-    animation-duration: 600ms;
+    animation-duration: 1500ms;
     animation-fill-mode:forwards;
-    animation-play-state: paused;
 }
+
+
+
+
+
+
+
 .animated-up-pets{
     animation-name: up;
     animation-duration: 600ms;

@@ -1,4 +1,3 @@
-
 function inkojima(){
     var kojima_img=document.getElementById("index")
     var kojima_txt=document.getElementById("info_txt")
@@ -50,4 +49,20 @@ function connection_change(){
         git.style.opacity=1;
         
     }
+}
+function profile(){
+    var pagina=document.getElementById("page")
+    var profile=document.getElementById("profile-conteiner")
+    profile.animationDirection="normal";
+    pagina.classList.add("animated-up-pg")
+    profile.classList.add("animated-up-pr")
+    }
+function lk(){
+    var profile=document.getElementById("profile-conteiner")
+    var lank=document.getElementById("languages_skills")
+    profile.style.animationDuration="2500ms"
+    profile.style.animationDirection="reverse";
+    lank.classList.add("animated-up-lk")
+    // profile.classList.remove("animated-up-pr")
+    // profile.classList.add("animated-down-pr")
 }
